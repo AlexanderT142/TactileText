@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+
+# Swift / SPM
+.build/
+.swiftpm/
+
+# Xcode user data
+DerivedData/
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+*.xcuserstate
+
+# Local tooling
+.claude/

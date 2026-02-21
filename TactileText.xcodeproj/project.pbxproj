@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 63;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		156F9DCD03B60D10402FFB9C /* LoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_014AB2DA-937D-4A66-AB51-5EDB857A0233" /* LoomView.swift */; };
+		1D9FB60648F4A914D086FFA2 /* TactileTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_AFD385AE-5FCE-4564-9321-4F09F583643B" /* TactileTextView.swift */; };
+		1F8EF7A6925255EA02A9422F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_E6B8D1A6-6AE4-4186-97E2-68679C44EED4" /* ContentView.swift */; };
+		23EF9CC087EAFCF37913B638 /* TactileTextApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_3C5A4BE8-15EE-4F96-BD1B-53781175902E" /* TactileTextApp.swift */; };
+		2AA7A3B3B4E3416BB3D66A91 /* LoomIntelligence.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_6F4868A2-BF89-4E9E-81B2-2B9A7A6D7E38" /* LoomIntelligence.swift */; };
+		3D0BF9EFE7FFF613E3F0CEC8 /* TactileTextEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_726BA27B-B0B9-4274-A896-7254732E31B3" /* TactileTextEngine.swift */; };
+		5A3515ABCE4781A2B2DC16D4 /* SemanticGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_C3777C0C-1E09-4F68-953D-2F82724AF071" /* SemanticGraph.swift */; };
+		5C67B6CFC67183C8BA9A7513 /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_628E4957-ED25-41B0-9589-D4D7C56E6613" /* MockData.swift */; };
+		8E65A6ADA9B527DBA08EFE4D /* MockSemantics.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_5ACD85A1-7CAF-40C9-BC49-67A59A9A02D7" /* MockSemantics.swift */; };
+		B79F3C0D1D834AF69C88E0F4 /* LoomSecrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_9C62E74F-BC31-40D6-BB3C-EAC6D1BDF9E2" /* LoomSecrets.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DE69AE2DAF9EB9654179185B /* TactileText.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TactileText.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		"TEMP_014AB2DA-937D-4A66-AB51-5EDB857A0233" /* LoomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoomView.swift; sourceTree = "<group>"; };
+		"TEMP_3C5A4BE8-15EE-4F96-BD1B-53781175902E" /* TactileTextApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TactileTextApp.swift; sourceTree = "<group>"; };
+		"TEMP_5ACD85A1-7CAF-40C9-BC49-67A59A9A02D7" /* MockSemantics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockSemantics.swift; sourceTree = "<group>"; };
+		"TEMP_6F4868A2-BF89-4E9E-81B2-2B9A7A6D7E38" /* LoomIntelligence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoomIntelligence.swift; sourceTree = "<group>"; };
+		"TEMP_628E4957-ED25-41B0-9589-D4D7C56E6613" /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
+		"TEMP_726BA27B-B0B9-4274-A896-7254732E31B3" /* TactileTextEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TactileTextEngine.swift; sourceTree = "<group>"; };
+		"TEMP_9C62E74F-BC31-40D6-BB3C-EAC6D1BDF9E2" /* LoomSecrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoomSecrets.swift; sourceTree = "<group>"; };
+		"TEMP_AFD385AE-5FCE-4564-9321-4F09F583643B" /* TactileTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TactileTextView.swift; sourceTree = "<group>"; };
+		"TEMP_C3777C0C-1E09-4F68-953D-2F82724AF071" /* SemanticGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SemanticGraph.swift; sourceTree = "<group>"; };
+		"TEMP_E6B8D1A6-6AE4-4186-97E2-68679C44EED4" /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		9490A569B0B5C4F7C9D79BEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE69AE2DAF9EB9654179185B /* TactileText.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F9E0F5E680D360D3241221E = {
+			isa = PBXGroup;
+			children = (
+				9490A569B0B5C4F7C9D79BEA /* Products */,
+				EC23E6152F4183EE0090F59F /* Recovered References */,
+			);
+			sourceTree = "<group>";
+		};
+		EC23E6152F4183EE0090F59F /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				"TEMP_E6B8D1A6-6AE4-4186-97E2-68679C44EED4" /* ContentView.swift */,
+				"TEMP_6F4868A2-BF89-4E9E-81B2-2B9A7A6D7E38" /* LoomIntelligence.swift */,
+				"TEMP_014AB2DA-937D-4A66-AB51-5EDB857A0233" /* LoomView.swift */,
+				"TEMP_9C62E74F-BC31-40D6-BB3C-EAC6D1BDF9E2" /* LoomSecrets.swift */,
+				"TEMP_628E4957-ED25-41B0-9589-D4D7C56E6613" /* MockData.swift */,
+				"TEMP_5ACD85A1-7CAF-40C9-BC49-67A59A9A02D7" /* MockSemantics.swift */,
+				"TEMP_C3777C0C-1E09-4F68-953D-2F82724AF071" /* SemanticGraph.swift */,
+				"TEMP_3C5A4BE8-15EE-4F96-BD1B-53781175902E" /* TactileTextApp.swift */,
+				"TEMP_726BA27B-B0B9-4274-A896-7254732E31B3" /* TactileTextEngine.swift */,
+				"TEMP_AFD385AE-5FCE-4564-9321-4F09F583643B" /* TactileTextView.swift */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0124B294ACBE12F326F2A81 /* TactileText */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 272DE745F2B2B61B038A9B68 /* Build configuration list for PBXNativeTarget "TactileText" */;
+			buildPhases = (
+				444E5A04AE49E3F88A77F977 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TactileText;
+			packageProductDependencies = (
+			);
+			productName = TactileText;
+			productReference = DE69AE2DAF9EB9654179185B /* TactileText.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4FE502EA74A4BD64C73CABB4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+			};
+			buildConfigurationList = 1E800070ED07C506971C6BE7 /* Build configuration list for PBXProject "TactileText" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 9F9E0F5E680D360D3241221E;
+			minimizedProjectReferenceProxies = 1;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0124B294ACBE12F326F2A81 /* TactileText */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		444E5A04AE49E3F88A77F977 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F8EF7A6925255EA02A9422F /* ContentView.swift in Sources */,
+				2AA7A3B3B4E3416BB3D66A91 /* LoomIntelligence.swift in Sources */,
+				156F9DCD03B60D10402FFB9C /* LoomView.swift in Sources */,
+				B79F3C0D1D834AF69C88E0F4 /* LoomSecrets.swift in Sources */,
+				5C67B6CFC67183C8BA9A7513 /* MockData.swift in Sources */,
+				8E65A6ADA9B527DBA08EFE4D /* MockSemantics.swift in Sources */,
+				5A3515ABCE4781A2B2DC16D4 /* SemanticGraph.swift in Sources */,
+				23EF9CC087EAFCF37913B638 /* TactileTextApp.swift in Sources */,
+				3D0BF9EFE7FFF613E3F0CEC8 /* TactileTextEngine.swift in Sources */,
+				1D9FB60648F4A914D086FFA2 /* TactileTextView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3556EAE49F01723740CACBEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		6DD0FFCBFB125321E3251F28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"\"";
+				DEVELOPMENT_TEAM = 8GCU9A46VP;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ".build/arm64-apple-macosx/debug/TactileText.dSYM/Contents/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tianchenhao.TactileText;
+				PRODUCT_NAME = TactileText;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		97F9CF88AE45CA47DBA00249 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"\"";
+				DEVELOPMENT_TEAM = 8GCU9A46VP;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ".build/arm64-apple-macosx/debug/TactileText.dSYM/Contents/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tianchenhao.TactileText;
+				PRODUCT_NAME = TactileText;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9824F56F02A9B970D51D39FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E800070ED07C506971C6BE7 /* Build configuration list for PBXProject "TactileText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9824F56F02A9B970D51D39FF /* Debug */,
+				3556EAE49F01723740CACBEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		272DE745F2B2B61B038A9B68 /* Build configuration list for PBXNativeTarget "TactileText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DD0FFCBFB125321E3251F28 /* Debug */,
+				97F9CF88AE45CA47DBA00249 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4FE502EA74A4BD64C73CABB4 /* Project object */;
+}
