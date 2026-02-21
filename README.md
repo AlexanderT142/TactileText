@@ -3,13 +3,16 @@
 TactileText is an interaction-focused reading prototype built with SwiftUI.
 
 ## Demo Mode (No API Required)
-This project now runs in **offline demo mode by default**.
+This project runs in **offline demo mode by default**.
 
 - No AI API key is needed to launch and explore the UI.
-- It ships with bundled mock sentence data for a full walkthrough.
+- It ships with a bundled paragraph and manually prepared sentence data.
+- Every word in the demo paragraph includes a translation.
+- Sentence translations and semantic breakdown data are prepared manually.
+- Mouse interactions are enabled for hover/click focus and gutter scroll-depth control.
 
 ## Optional AI Enhancement
-If you want live Gemini analysis, set `GEMINI_API_KEY` in your Xcode scheme environment variables.
+If you want the real AI-backed version, set `GEMINI_API_KEY` in your Xcode scheme environment variables.
 
 If no key is present, the app stays in offline demo mode and makes no network AI requests.
 
