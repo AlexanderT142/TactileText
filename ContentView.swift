@@ -436,11 +436,11 @@ private struct InteractiveWordView: View {
             .overlay(alignment: .bottom) {
                 if let translation = token.translation, !translation.isEmpty {
                     Text(translation)
-                        .font(.system(size: 10, weight: .regular))
+                        .font(.system(size: 9, weight: .regular))
                         .foregroundStyle(Color.black.opacity(0.74))
                         .fixedSize(horizontal: true, vertical: false)
                         .opacity(translationVisible ? 1 : 0)
-                        .offset(y: 18)
+                        .offset(y: 12)
                         .allowsHitTesting(false)
                         .animation(.easeOut(duration: 0.2), value: translationVisible)
                 }
@@ -500,9 +500,10 @@ private struct GutterHandle: View {
                 .fill(isHovering ? Color.black.opacity(0.72) : Color.gray.opacity(0.9))
                 .frame(width: isHovering ? 6 : 4, height: max(barHeight, 30))
                 .offset(x: 5, y: yOffset)
+                .allowsHitTesting(false)
         }
         .animation(.easeOut(duration: 0.14), value: isHovering)
-        .background(ScrollWheelCaptureLayer(isEnabled: isHovering, onScroll: handleScroll))
+        .background(ScrollWheelCaptureLayer(isEnabled: true, onScroll: handleScroll))
         .contentShape(Rectangle())
         .onHover { hovering in
             onHoverChange(hovering)
@@ -969,7 +970,7 @@ private struct WordView: View {
                     VStack(spacing: 1.5) {
                         if let translationText {
                             Text(translationText)
-                                .font(.system(size: 10, weight: .regular))
+                                .font(.system(size: 9, weight: .regular))
                                 .foregroundStyle(Color.gray)
                         }
                         if let synonymText {
@@ -983,7 +984,7 @@ private struct WordView: View {
                     .fixedSize(horizontal: true, vertical: false)
                     .zIndex(100)
                     .opacity(intelligenceVisible ? 1 : 0)
-                    .offset(y: 32)
+                    .offset(y: 24)
                     .allowsHitTesting(false)
                     .animation(.easeOut(duration: 0.2), value: intelligenceVisible)
                 }
