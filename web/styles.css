@@ -133,6 +133,19 @@ body {
   font-size: 1.8rem;
 }
 
+.demo-panel p {
+  margin-top: 0;
+  color: var(--muted);
+}
+
+.demo-gif {
+  width: 100%;
+  display: block;
+  border-radius: 14px;
+  border: 1px solid #d9d3c5;
+  box-shadow: var(--shadow);
+}
+
 .feature-grid {
   margin: 0;
   padding: 0;

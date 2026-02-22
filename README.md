@@ -2,6 +2,9 @@
 
 TactileText is an interaction-focused reading prototype built with SwiftUI.
 
+## Demo GIF
+![TactileText demo](web/media/videosample.gif)
+
 ## Demo Mode (No API Required)
 This project runs in **offline demo mode by default**.
 
